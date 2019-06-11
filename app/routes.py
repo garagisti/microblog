@@ -4,10 +4,9 @@ from app.forms import LoginForm
 
 @app.route('/')
 @app.route('/index')
-
 def index():
 	user = {'user' : 'Rahul'}
-	posts = [				
+	posts = [
 				{
 					'author' : {'user': 'Michael'},
 					'body'	: 'What kind of race was that?!'
